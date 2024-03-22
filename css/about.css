@@ -1,0 +1,257 @@
+/*
+Author : Unni Krishna Prasad Endla
+Student: c0930172
+File Name : style.css
+*/
+
+/*CSS Reset */
+body,
+header,
+nav,
+main,
+footer,
+img,
+h1,
+h3 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#logo{
+    float:left;
+    width :5%;
+    padding: 3px;
+    margin: 5px 0;
+}
+
+/* Style rules for body and images */
+body {
+    background-color: #22d5a8;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    margin: 5px auto;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    display: inline-flex;
+}
+
+.tab-desktop{
+    display:none;
+}
+
+nav {
+    padding: 1%;
+    margin-bottom: 1%;
+    background-color: #0b3c6e;
+}
+
+nav ul {
+    list-style-type: none;
+    font-family: 'Protest Strike', sans-serif;
+    text-align: center;
+    padding: 0%;
+}
+
+nav li {
+    font-size: 1.25em;
+    border-top: 1px solid #fff;
+}
+
+nav li:first-child {
+    border-top: none;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+
+/* Style rules for main content */
+main {
+    clear:left;
+    display: block;
+    font-family: Verdana, sans-serif;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+main p {
+    font-size: 1.25em;
+}
+
+main h3 {
+    padding-top: 2%;
+}
+
+#heading{
+    align-self: center;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    margin: 10px 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h1 {
+    color: rgb(255, 0, 0);
+}
+
+#Guarantee_About,
+.box{
+    background-color: #bbcf05;
+    border: 5px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+
+.link {
+    color: #4d3319;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.action {
+    font-size: 1.75em;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+#contact {
+    text-align: center;
+}
+
+/* Style rules for footer content */
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    background-color: #2f235c;
+    color: #f6eee4;
+    padding: 1% 0%;
+}
+
+footer a {
+    color: #f3e6d8;
+    text-decoration: none;
+}
+
+/* Media query for tablet viewport */
+@media screen and (min-width: 550px),
+print {
+    .tab-desktop{
+        display:block;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    span.tab-desk {
+        display: inline;
+    }
+
+    /* style rules for nav area for tablet viewport */
+    nav li {
+        border-top: none;
+        display: inline-block;
+        font-size: 1.5em;
+        border-right: 1px solid #0b3c6e;
+
+    }
+
+    nav li:last-child {
+        border-right: none;
+    }
+
+    nav li a {
+        padding: 0.25em 0.5em;
+    }
+
+    .tab-desktop a {
+        color: #5768d6;
+        display: block;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+}
+
+
+/* media query for desktop*/
+@media screen and (min-width:769px){
+    .tab-desktop{
+        display:block;
+    }
+    nav {
+        float: right;
+        width: 92%;
+        background-color: #0856a4c0;
+        font-family: Arial, sans-serif;
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #4a02ff;
+        border-radius: 5px;
+    }
+   
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        text-align: left;
+    }
+    
+    nav li {
+        display: inline-table;
+        font-size: 1.00em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+		border: none;
+    }
+    
+    nav li a {
+        display: block;
+        color: #ffffff;
+        padding: 0.5em 2em;
+        text-decoration: none;
+    }
+    
+    nav a:hover {
+        background-color: #000000;
+    }
+    
+}
+
