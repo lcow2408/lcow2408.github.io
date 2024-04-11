@@ -133,7 +133,7 @@ h1 {
 #welcome,
 #featured,
 #Specials{
-    background-color: #aaae85;
+    background-color: #bbcf05;
     border: 5px solid #000000;
     border-radius: 10px;
     padding: 10px;
@@ -220,7 +220,7 @@ h1 {
 
 #content{
     font-size: smaller;
-    background-color: #a8977a;
+    background-color: #bbcf05;
     align-self: center;
     border: 2px solid #000000;
     border-radius: 2px;
